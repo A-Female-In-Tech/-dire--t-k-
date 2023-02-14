@@ -110,12 +110,12 @@ function nextSlide() {
 }
 
 // Automate slider
-let autoSlide = setInterval(nextSlide, 10000);
+let autoSlide = setInterval(nextSlide, 2000);
 
 // Stop Automatic Slide
 function stopAutoSlide() {
     clearInterval(autoSlide);
 
 // Restart Auto slider
-autoSlide = setInterval(nextSlide, 10000);
+autoSlide = setInterval(nextSlide, 2000);
 }
