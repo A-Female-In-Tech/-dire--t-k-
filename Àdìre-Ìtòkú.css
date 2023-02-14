@@ -54,7 +54,7 @@ h2 {
 header {
     padding: var(--spacing);
     background: #fff;
-    height: 80vh;
+    height: 100vh;
 }
 
 .container {
@@ -275,7 +275,7 @@ nav li {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 20px;
     flex-wrap: wrap;
 }
 
